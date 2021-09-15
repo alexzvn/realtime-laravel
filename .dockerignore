@@ -24,6 +24,7 @@ docker-compose.yml
 !.docker/supervisor*
 !.docker/php
 !.docker/docker-entrypoint.sh
+!.docker/nginx
 
 .vscode
 .idea
@@ -43,3 +44,4 @@ public/mix-manifest.json
 ./supervisord*
 
 horizon.log
+oc
